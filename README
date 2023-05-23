@@ -1,0 +1,12 @@
+hmmiku.vim
+
+Author: hmwakasa (Shoma Hitomi) <hmwakasa@ep.sci.hokudai.ac.jp>
+Licence: CC BY-SA
+
+初音ミクをイメージしたカラースキーム。
+
+使ってる色 (xterm-256colors)
+  236 242 250 255
+  198  23  80 230
+   71 186
+
