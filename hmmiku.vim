@@ -25,17 +25,17 @@ hi CursorColumn     ctermfg=NONE ctermbg=236  cterm=NONE
 hi CursorLine       ctermfg=NONE ctermbg=236  cterm=NONE
 hi Directory        ctermfg=80   ctermbg=NONE cterm=NONE
 hi DiffAdd          ctermfg=236  ctermbg=80   cterm=reverse
-hi DiffChange       ctermfg=236  ctermbg=23   cterm=reverse
+hi DiffChange       ctermfg=236  ctermbg=30   cterm=reverse
 hi DiffDelete       ctermfg=236  ctermbg=198  cterm=reverse
-hi DiffText         ctermfg=236  ctermbg=23   cterm=reverse,bold
+hi DiffText         ctermfg=236  ctermbg=30   cterm=reverse,bold
 "hi EndOfBuffer      ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ErrorMsg         ctermfg=198  ctermbg=NONE cterm=reverse
 hi VertSplit        ctermfg=242  ctermbg=242  cterm=NONE
-hi Folded           ctermfg=80   ctermbg=250  cterm=NONE
-hi FoldColumn       ctermfg=242  ctermbg=80   cterm=NONE
-hi SignColumn       ctermfg=198  ctermbg=236  cterm=bold
+hi Folded           ctermfg=71   ctermbg=236  cterm=bold
+hi FoldColumn       ctermfg=255  ctermbg=236  cterm=NONE
+hi SignColumn       ctermfg=255  ctermbg=236  cterm=bold
 hi IncSearch        ctermfg=71   ctermbg=NONE cterm=reverse,bold
-hi LineNr           ctermfg=250  ctermbg=23   cterm=NONE
+hi LineNr           ctermfg=255  ctermbg=236  cterm=NONE
 "hi LineNrAbove      ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi LineNrBelow      ctermfg=NONE ctermbg=NONE cterm=NONE
 hi CursorLineNr     ctermfg=198  ctermbg=236  cterm=bold
@@ -72,19 +72,19 @@ hi WarningMsg       ctermfg=198  ctermfg=NONE cterm=bold
 hi WildMenu         ctermfg=NONE ctermfg=NONE cterm=reverse,bold
 hi link VisualNOS Visual
 
-hi Comment          ctermfg=242  ctermbg=NONE cterm=italic
+hi Comment          ctermfg=250  ctermbg=NONE cterm=italic
 
-hi Constant         ctermfg=80   ctermbg=NONE cterm=NONE
+hi Constant         ctermfg=30   ctermbg=NONE cterm=NONE
 "hi String           ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Character        ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Number           ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Boolean          ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Float            ctermfg=NONE ctermbg=NONE cterm=NONE
 
-hi Identifier       ctermfg=230  ctermbg=NONE cterm=bold
+hi Identifier       ctermfg=80  ctermbg=NONE cterm=bold
 "hi Function         ctermfg=NONE ctermbg=NONE cterm=NONE
 
-hi Statement        ctermfg=80   ctermbg=NONE cterm=bold
+hi Statement        ctermfg=230  ctermbg=NONE cterm=bold
 "hi Conditional      ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Repeat           ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Label            ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -92,13 +92,13 @@ hi Statement        ctermfg=80   ctermbg=NONE cterm=bold
 "hi Keyword          ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Exception        ctermfg=NONE ctermbg=NONE cterm=NONE
 
-hi PreProc          ctermfg=198  ctermbg=NONE cterm=italic
+hi PreProc          ctermfg=198  ctermbg=NONE cterm=NONE
 "hi Include          ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Define           ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Macro            ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi PreCondit        ctermfg=NONE ctermbg=NONE cterm=NONE
 
-hi Type             ctermfg=230  ctermbg=NONE cterm=NONE
+hi Type             ctermfg=80   ctermbg=NONE cterm=NONE
 "hi StorageClass     ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Structure        ctermfg=NONE ctermbg=NONE cterm=NONE
 "hi Typedef          ctermfg=NONE ctermbg=NONE cterm=NONE
